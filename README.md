@@ -22,6 +22,6 @@ Lastly when sending a recipe using a POST request the ingridients and directions
 
 <img src="https://bl3302files.storage.live.com/y4m-w_DUUVTTMwMtp7VqVThoZLnRZcgzMSdDyyqT-qYCIInjOmrRV0ii7gcchplV_oukl1o_QrvAksLpfWxs0_dEBxno4saafxi_2WaoEKZ2cIK7_YW3YOQoNEkpXX1kiyOCqUdKD-FN3M3PwUeImlrhKS9Uvkonm33ax94lEJfKpxvEgWg7K-pF8cxfTBGQAw8?width=1920&height=1080&cropmode=none" width="1080" height="720" alt= "GET request on POSTMAN"/>
 
-1. The API has a new endpoint for POST request: /api/recipe/{id}
+1. The API has a new endpoint for GET request: /api/recipe/{id}
 2. We can see the success of the request as we receive the HTTP status code of 200
 3. As response we receive our recipe back (that is assuming our id is valid, incorrect id will result in a NOT_FOUND HTTP error)
